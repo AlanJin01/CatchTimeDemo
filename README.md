@@ -18,7 +18,7 @@
         timeString = format2.string(from: date)
         
         
-能够实时更新是因为用了Timer定时器，并调用selector里的方法
+能够实时更新是因为用了Timer定时器，并调用selector里的方法.
 
         //定时器，用来实时更新时间
         timer = Timer.scheduledTimer(timeInterval: 0.5, target: self, selector: #selector(ViewController.currentTime), userInfo: nil, repeats: true)
